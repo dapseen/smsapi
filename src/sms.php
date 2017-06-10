@@ -7,8 +7,8 @@ $client = new Nexmo\Client(new Nexmo\Client\Credentials\Basic('0d794717', '980ad
 
 //send message using simple api params
 $message = $client->message()->send([
-    'to' => '23409057691023',
-    'from' => '2348139369008',
+    'to' => '+23409057691023',
+    'from' => '+2348139369008',
     'text' => 'Test message from the Nexmo PHP Client'
 ]);
 
